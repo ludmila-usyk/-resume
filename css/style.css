@@ -19,16 +19,7 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main_content_section {
-padding: 100px 90px;
-}
-
-main_content_title {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-color: #000;
-margin-bottom: 10px;
+padding: 50px 50px;
 }
 
 .about_me_sectoin {
@@ -68,7 +59,7 @@ line-height: 24px;
 color: #595959;}
 
 .my_projects_sectoin {
-margin: 50px;
+margin: 20px;
 }
 
 .my_projects_list {
