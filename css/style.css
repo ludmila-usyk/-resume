@@ -7,15 +7,18 @@ box-sizing: border-box;
 body {
 font-style: normal;
 font-family: 'Montserrat', sans-serif;
-/* background-color: #F5F7FA; */
+font-weight: normal;
 }
 
-.main_container {
+img {
+    width: 100%;
+}
+
+.container {
 display: flex;
 flex-direction:
 row-reverse; width: 1200px;
 margin: 40px auto;
-/* background-color: white; */
 }
 
 .about_me_sectoin {
@@ -25,40 +28,23 @@ margin: 0 0 40px 0;
 .my_projects {
 margin: 70px 50px;
 }
-    
-.about_me_profession {
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-color: #000;
-margin: 0 0 20px 0;
-}
 
 .about_me_name {
 font-weight: bold;
 font-size: 45px;
 line-height: 55px;
-margin: 0 0 25px 0;
-}
-
-.about_me_profession {
-font-size: 14px;
-font-weight: 700;
+margin: 20px 0 25px 0;
 }
 
 .about_me_description {
 width: 400px;
-font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #595959;
 }
+
 .main-title {
 margin-bottom: 10px;
-}
-
-.my_projects_list {
-padding: 0 0 0 18px;
 }
 
 .my_projects_item {
@@ -67,52 +53,38 @@ font-weight: bold;
 }
 
 .my_projects_link {
-font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #595959;
 }
 
 .my_projects_text {
-font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #595959;
 margin-left: 5px;
 }
 
-.my_projects_braket {
-font-weight: bold;
-font-size: 14px;
-line-height: 24px;
-color: black;
-}
-
-.my_work_experience_company {
+.company {
 color: #FB6D3A;
 }
 
-.my_work_experience_position {
+.position {
 font-weight: bold;
 font-size: 16px;
 line-height: 20px;
 }
 
 
-.my_work_experience_time {
-font-weight: normal;
+.experience-time {
 font-size: 12px;
 line-height: 15px;
 color: #A8A8A8;
 margin: 10px;
 }
 
-.my_work_expirience_divider {
-color: black;
-}
-
-.my_work_experience_duties {
-padding: 0 0 0 18px;
+.skills_list {
+padding: 0 0 0 20px;
 }
 
 .siderbar_section {
@@ -134,7 +106,6 @@ margin-bottom: 10px
 }
 
 .contact_section_type {
-font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #FB6D3A;
@@ -143,14 +114,9 @@ margin-right: 5px;
 
 .contact_section_link {
 color: white;
-font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 text-decoration: none;
-}
-
-.skills_list {
-padding: 0 0 0 20px;
 }
 
 .skills_item {
